@@ -1,6 +1,5 @@
-
 import { useState } from 'react';
-import { Mail, MessageSquare, Send, Twitter, Youtube, Twitch, Discord } from 'lucide-react';
+import { Mail, MessageSquare, Send, Twitter, Youtube, Twitch, MessageCircle } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -69,7 +68,7 @@ const Contact = () => {
     },
     {
       platform: 'Discord',
-      icon: Discord,
+      icon: MessageCircle,
       handle: 'GameVault Community',
       url: '#',
       color: 'text-indigo-400',
