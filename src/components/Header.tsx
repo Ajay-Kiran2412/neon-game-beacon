@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Menu, X, Gamepad2 } from 'lucide-react';
+import { Search, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -22,7 +22,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <Gamepad2 className="h-8 w-8 text-neon-purple group-hover:text-neon-blue transition-colors" />
+            <img 
+              src="/lovable-uploads/d62c59e4-b4af-4430-9db2-b29abf01fc4c.png" 
+              alt="GameVault Logo" 
+              className="h-10 w-10 object-contain group-hover:scale-110 transition-transform duration-300"
+            />
             <span className="text-2xl font-gaming font-bold gradient-text">
               GameVault
             </span>

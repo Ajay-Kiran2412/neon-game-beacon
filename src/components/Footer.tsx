@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { Gamepad2, Twitter, Youtube, Twitch, Mail } from 'lucide-react';
+import { Twitter, Youtube, Twitch, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -12,7 +12,11 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <Gamepad2 className="h-8 w-8 text-neon-purple" />
+              <img 
+                src="/lovable-uploads/d62c59e4-b4af-4430-9db2-b29abf01fc4c.png" 
+                alt="GameVault Logo" 
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-xl font-gaming font-bold gradient-text">
                 GameVault
               </span>
